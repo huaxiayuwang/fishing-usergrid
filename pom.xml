@@ -71,7 +71,7 @@
 				<version>${glassfish-jersey.version}</version>
 			</dependency>
 			<!-- End Jersey -->
-			
+
 			<!-- JSON-P -->
 			<dependency>
 				<groupId>org.glassfish.jersey.media</groupId>
@@ -258,5 +258,7 @@
 	</build>
 	<modules>
 		<module>fishing-rest</module>
+		<module>fishing-core</module>
+		<module>fishing-service</module>
 	</modules>
 </project>

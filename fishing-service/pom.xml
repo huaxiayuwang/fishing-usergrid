@@ -8,8 +8,8 @@
 		<artifactId>fishing-usergrid</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>fishing-rest</artifactId>
-	<name>fishing-rest</name>
+	<artifactId>fishing-service</artifactId>
+	<name>fishing-service</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -18,11 +18,6 @@
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>fishing-core</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>${project.groupId}</groupId>
-			<artifactId>fishing-service</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 		<!-- Spring -->
