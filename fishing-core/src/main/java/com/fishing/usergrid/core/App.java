@@ -1,4 +1,4 @@
-package org.fishing.core;
+package com.fishing.usergrid.core;
 
 /**
  * Hello world!

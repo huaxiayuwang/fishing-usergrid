@@ -1,5 +1,7 @@
 package com.fishing.usergrid.rest.resources;
 
-public class AbstractContextResource {
+import javax.ws.rs.container.ResourceContext;
 
+public abstract class AbstractContextResource {
+	ResourceContext a = null;
 }

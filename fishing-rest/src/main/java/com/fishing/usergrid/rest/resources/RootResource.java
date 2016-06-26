@@ -12,5 +12,5 @@ import org.springframework.stereotype.Component;
 @Scope("singleton")
 @Produces({MediaType.APPLICATION_JSON, "application/javascript", "application/x-javascript", "text/ecmascript", "application/ecmascript", "text/jscript"})
 public class RootResource {
-
+	
 }

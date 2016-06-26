@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: rest
+  aop:
+    proxy-target-class: true
+  jmx:
+    enabled: false
+  jersey:
+    type: filter
+  profiles:
+    include: database
+    active: local
